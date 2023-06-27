@@ -1,0 +1,93 @@
+body {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FDF5E6;
+}
+
+#Board {
+	position: relative;
+	left: -20px;
+	top: 0px;
+	width: 720px;
+	height: 720px;
+	border-style:solid;
+    border-width:8px;	
+	border: 8px solid #4C2600;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#EngineOutput {
+	position: absolute;
+	left: 1200px;
+	top: 460px;	
+}
+
+.Piece {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+}
+
+.Square {
+	position: absolute;	
+	width: 90px;
+	height: 90px;
+}
+
+.Dark {
+	background-color: #854442;
+}
+	
+.Light {
+	background-color: #F1D9B5;
+}
+	
+.SqSelected {
+	background-color:  #B5D364 ;
+}
+
+.clickElement { cursor:pointer }
+
+.rank1 { top: 630px; }
+.rank2 { top: 540px; }
+.rank3 { top: 450px; }
+.rank4 { top: 360px; }
+.rank5 { top: 270px; }
+.rank6 { top: 180px; }
+.rank7 { top: 90px; }
+.rank8 { top: 0px; }
+
+.file1 { left: 0px; }
+.file2 { left: 90px; }
+.file3 { left: 180px; }
+.file4 { left: 270px; }
+.file5 { left: 360px; }
+.file6 { left: 450px; }
+.file7 { left: 540px; }
+.file8 { left: 630px; }
+
+.rank8flip { top: 630px; }
+.rank7flip { top: 540px; }
+.rank6flip { top: 450px; }
+.rank5flip { top: 360px; }
+.rank4flip { top: 270px; }
+.rank3flip { top: 180px; }
+.rank2flip { top: 90px; }
+.rank1flip { top: 0px; }
+
+.file8flip { left: 0px; }
+.file7flip { left: 90px; }
+.file6flip { left: 180px; }
+.file5flip { left: 270px; }
+.file4flip { left: 360px; }
+.file3flip { left: 450px; }
+.file2flip { left: 560px; }
+.file1flip { left: 630px; }
+
+
+
+
+
+
+
